@@ -106,7 +106,7 @@ export default function Home() {
           <div>
             <p className="mb-3 text-sm font-bold uppercase tracking-widest text-blue-600">Centre Director</p>
             <h2 className="mb-2 text-4xl font-bold">James Choi</h2>
-            <p className="mb-6 text-xl font-semibold text-slate-700">최진수 소장 · Director, GBC Sydney</p>
+            <p className="mb-6 text-xl font-semibold text-slate-700">Director, GBC Sydney</p>
             <p className="max-w-3xl text-lg leading-8 text-slate-600">
               James Choi leads GBC Sydney’s local business development activities, supporting Gyeonggi companies with Australian buyer discovery,
               trade meetings, market testing, delegation programs and follow-up coordination with local partners.
