@@ -1,4 +1,7 @@
 export default function Home() {
+  const googleFormUrl =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdlf7rWyYMI8ZiQHwBtgrcqXaPW5kTcsaJ7zlt13CqJiPvu-A/viewform";
+
   return (
     <main className="min-h-screen bg-white text-slate-900">
       <header className="w-full border-b border-slate-200 bg-white">
@@ -16,23 +19,19 @@ export default function Home() {
       </header>
 
       <section className="relative w-full bg-white">
-        <img
-          src="/delegation-banner.png"
-          alt="2026 Gyeonggi Trade Delegation to Sydney"
-          className="block w-full"
-        />
-
         <a
-          href="#delegation"
-          aria-label="View Trade Delegation"
-          className="absolute left-[3%] top-[67%] h-[8%] w-[20%] rounded-xl"
-        />
-
-        <a
-          href="#contact"
-          aria-label="Contact GBC Sydney"
-          className="absolute left-[25%] top-[67%] h-[8%] w-[18%] rounded-xl"
-        />
+          href={googleFormUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open Gyeonggi Trade Delegation Registration Form"
+          className="block cursor-pointer"
+        >
+          <img
+            src="/delegation-banner.png"
+            alt="2026 Gyeonggi Trade Delegation to Sydney Registration"
+            className="block w-full"
+          />
+        </a>
       </section>
 
       <section id="programs" className="bg-white px-6 py-24">
@@ -107,9 +106,10 @@ export default function Home() {
           <div>
             <p className="mb-3 text-sm font-bold uppercase tracking-widest text-blue-600">Centre Director</p>
             <h2 className="mb-2 text-4xl font-bold">James Choi</h2>
-            <p className="mb-6 text-xl font-semibold text-slate-700">Director, GBC Sydney</p>
+            <p className="mb-6 text-xl font-semibold text-slate-700">최진수 소장 · Director, GBC Sydney</p>
             <p className="max-w-3xl text-lg leading-8 text-slate-600">
-              James Choi leads GBC Sydney’s local business development activities, supporting Gyeonggi companies with Australian buyer discovery, trade meetings, market testing, delegation programs and follow-up coordination with local partners.
+              James Choi leads GBC Sydney’s local business development activities, supporting Gyeonggi companies with Australian buyer discovery,
+              trade meetings, market testing, delegation programs and follow-up coordination with local partners.
             </p>
           </div>
         </div>
