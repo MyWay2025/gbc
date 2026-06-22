@@ -129,8 +129,17 @@ export default function Home() {
       </section>
 
       <footer className="bg-[#071A4D] px-6 py-8 text-center text-sm text-slate-300">
-        © 2026 GBC Sydney. All rights reserved.
-      </footer>
+  <div className="mb-3 flex justify-center gap-6">
+    <a href="/privacy-policy" className="hover:text-white">
+      Privacy Policy
+    </a>
+    <a href="#contact" className="hover:text-white">
+      Contact
+    </a>
+  </div>
+
+  <p>© 2026 GBC Sydney. All rights reserved.</p>
+</footer>
     </main>
   );
 }
